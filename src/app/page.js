@@ -152,9 +152,9 @@ const Home = () => {
               <div className="title-frame">
                 <div className="form-text">
                   LEED Analysis Buddy
-                </div>                
-
-                <Image src = {leed} width = {100} height = "auto" alt = "image not found" />
+                </div>
+                <Image src = {leed} height = {0} width = "auto" alt = "yo" />
+                
                 
                 </div>
             </div>
@@ -268,7 +268,7 @@ const Home = () => {
               <div className="">
                
                 <div className="">
-                <div className="bg-green-300 p-8 rounded-lg shadow-md ">
+                <div className="bg-blue-300 p-8 rounded-lg shadow-md w-96">
         <h1 className="text-2xl mb-12 text-black ">Upload Your Building Documents</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
